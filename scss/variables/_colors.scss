@@ -2,16 +2,20 @@ $white: #fff;
 $black: #000;
 
 // add the $colors map here (2 dimensional map)
-
+// $colors: (
+// 'Gray': (
+//   '25': #ffff,
+//   '50': #ffff,
+//   '100': #ffff
 // prettier-ignore
-$colors: {
-  "gray": (width: rem-calc(25), color: #FCFCFD), (width: rem-calc(50), color: #F9FAFB), (width: rem-calc(100), color: #F2F4F7), (width: rem-calc(200), color: #E4E7EC), (width: rem-calc(300), color: #D0D5DD), (width: rem-calc(400), color: #98A2B3), (width: rem-calc(500), color: #667085), (width: rem-calc(600), color: #475467), (width: rem-calc(700), color: #344054), (width: rem-calc(800), color: #182230), (width: rem-calc(900), color: #101828), (width: rem-calc(950), color: #0C111D),
+$colors: (
+  "gray": ('25': #FCFCFD, '50': #F9FAFB, '10': #F2F4F, '20': #E4E7E, '30': #D0D5D, '40': #98A2B, '50': #66708, '60': #47546, '70': #34405, '80': #18223, '90': #10182, '95': #0C111)
 
-  "brand": (width: rem-calc(25), color: #FCFAFF), (width: rem-calc(50), color: #F9F5FF), (width: rem-calc(100), color: #F4EBFF), (width: rem-calc(200), color: #E9D7FE), (width: rem-calc(300), color: #D6BBFB), (width: rem-calc(400), color: #B692F6), (width: rem-calc(500), color: #9E77ED), (width: rem-calc(600), color: #7F56D9), (width: rem-calc(700), color: #6941C6), (width: rem-calc(800), color: #53389E), (width: rem-calc(900), color: #42307D), (width: rem-calc(950), color: #2C1C5F),
+  "brand": ('25': #FCFAFF, '50': #F9F5FF, '10': #F4EBF, '20': #E9D7F, '30': #D6BBF, '40': #B692F, '50': #9E77E, '60': #7F56D, '70': #6941C, '80': #53389, '90': #42307, '95': #2C1C5)
 
-  "warning": (width: rem-calc(25), color: #FFFBFA), (width: rem-calc(50), color: #FEF3F2), (width: rem-calc(100), color: #FEE4E2), (width: rem-calc(200), color: #FECDCA), (width: rem-calc(300), color: #FDA29B), (width: rem-calc(400), color: #F97066), (width: rem-calc(500), color: #F04438), (width: rem-calc(600), color: #D92D20), (width: rem-calc(700), color: #B42318), (width: rem-calc(800), color: #912018), (width: rem-calc(900), color: #7A271A), (width: rem-calc(950), color: #55160C),
+  "warning": ('25': #FFFBFA, '50': #FEF3F2, '10': #FEE4E, '20': #FECDC, '30': #FDA29, '40': #F9706, '50': #F0443, '60': #D92D2, '70': #B4231, '80': #91201, '90': #7A271, '95': #55160)
 
-  "error": (width: rem-calc(25), color: #FFFCF5), (width: rem-calc(50), color: #FFFAEB), (width: rem-calc(100), color: #FEF0C7), (width: rem-calc(200), color: #FEDF89), (width: rem-calc(300), color: #FEC84B), (width: rem-calc(400), color: #FDB022), (width: rem-calc(500), color: #F79009), (width: rem-calc(600), color: #DC6803), (width: rem-calc(700), color: #B54708), (width: rem-calc(800), color: #93370D), (width: rem-calc(900), color: #7A2E0E), (width: rem-calc(950), color: #4E1D09),
+  "error": ('25': #FFFCF5, '50': #FFFAEB, '10': #FEF0C, '20': #FEDF8, '30': #FEC84, '40': #FDB02, '50': #F7900, '60': #DC680, '70': #B5470, '80': #93370, '90': #7A2E0, '95': #4E1D0)
 
-  "success": (width: rem-calc(25), color: #F6FEF9), (width: rem-calc(50), color: #ECFDF3), (width: rem-calc(100), color: #DCFAE6), (width: rem-calc(200), color: #ABEFC6), (width: rem-calc(300), color: #75E0A7), (width: rem-calc(400), color: #47CD89), (width: rem-calc(500), color: #17B26A), (width: rem-calc(600), color: #079455), (width: rem-calc(700), color: #067647), (width: rem-calc(800), color: #085D3A), (width: rem-calc(900), color: #074D31), (width: rem-calc(950), color: #053321),
-}
+  "success": ('25': #F6FEF9, '50': #ECFDF3, '10': #DCFAE, '20': #ABEFC, '30': #75E0A, '40': #47CD8, '50': #17B26, '60': #07945, '70': #06764, '80': #085D3, '90': #074D3, '95': #05332)
+)
