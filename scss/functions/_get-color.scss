@@ -10,10 +10,10 @@
 
   $color-map: map.get($colors, $type);
 
-  @if $color-map and map.has-key($color-map, $level) {
+  @if $color-map != null and map.has-key($color-map, $level) {
     @return map.get($color-map, $level);
+  } @else {
+    @warn "Invalid color type or level: `#{$type}` or `#{$level}`.";
+    @return null;
   }
-
-  @warn "Invalid color type or level: `#{$type}` or `#{$level}`.";
-  @return null;
 }
